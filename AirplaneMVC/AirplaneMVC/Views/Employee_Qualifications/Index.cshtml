@@ -1,0 +1,36 @@
+﻿@model IEnumerable<AirplaneMVC.Models.Employee_Qualifications>
+@using AirplaneMVC.Models
+
+@{
+    ViewData["Title"] = "Employee Qualifications";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Qualification</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Skill)</th>
+            <th>Employee</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var qualification in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => qualification.Skill)</td>
+                <td>@qualification.Employee?.Name</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@qualification.QualificationID" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-id="@qualification.QualificationID" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@qualification.QualificationID" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,44 @@
+﻿@model AirplaneMVC.Models.Airline
+
+@{
+    ViewData["Title"] = "Delete Airline";
+}
+
+<h2>Delete Airline</h2>
+
+<h4>Are you sure you want to delete this airline?</h4>
+<hr />
+
+<div>
+    <h4>Airline</h4>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ContactName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ContactName)
+        </dd>
+
+        <!-- Add additional fields as desired -->
+    </dl>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="AirlineID" />
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

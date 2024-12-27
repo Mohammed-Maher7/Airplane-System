@@ -1,0 +1,37 @@
+﻿@model IEnumerable<AirplaneMVC.Models.Aircraft>
+
+@{
+    ViewData["Title"] = "Aircrafts";
+}
+
+<h2>Aircrafts</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Aircraft</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Model)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Capacity)</th>
+            <th>Airline</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var aircraft in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => aircraft.Model)</td>
+                <td>@Html.DisplayFor(modelItem => aircraft.Capacity)</td>
+                <td>@aircraft.Airline?.Name</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@aircraft.AircraftID" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-id="@aircraft.AircraftID" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@aircraft.AircraftID" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<AirplaneMVC.Models.Crew>
+
+@{
+    ViewData["Title"] = "Crews";
+}
+
+<h2>Crews</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Crew</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().MajorPilot)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().AssistantPilot)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Hostess1)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Hostess2)</th>
+            <th>Aircraft</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var crew in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => crew.MajorPilot)</td>
+                <td>@Html.DisplayFor(modelItem => crew.AssistantPilot)</td>
+                <td>@Html.DisplayFor(modelItem => crew.Hostess1)</td>
+                <td>@Html.DisplayFor(modelItem => crew.Hostess2)</td>
+                <td>@crew.Aircraft?.Model</td> <!-- Use the correct property -->
+                <td>
+                    <a asp-action="Details" asp-route-id="@crew.CrewID" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-id="@crew.CrewID" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@crew.CrewID" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

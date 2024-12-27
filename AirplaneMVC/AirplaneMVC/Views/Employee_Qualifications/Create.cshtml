@@ -1,0 +1,42 @@
+﻿@model AirplaneMVC.Models.Employee_Qualifications
+@using Microsoft.AspNetCore.Mvc.Rendering
+@using AirplaneMVC.Models
+
+@{
+    ViewData["Title"] = "Create Qualification";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<hr />
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Create">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="Skill"></label>
+        <input asp-for="Skill" class="form-control" />
+        <span asp-validation-for="Skill" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EmployeeID" class="control-label">Employee</label>
+        <select asp-for="EmployeeID" class="form-control" asp-items="@(ViewData["EmployeeID"] as SelectList)">
+            <option value="">-- Select Employee --</option>
+        </select>
+        <span asp-validation-for="EmployeeID" class="text-danger"></span>
+    </div>
+
+    <!-- Add additional fields as needed -->
+
+    <input type="submit" value="Create" class="btn btn-primary" />
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

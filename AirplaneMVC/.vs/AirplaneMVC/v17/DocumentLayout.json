@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\assignments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\assignments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\assignments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\assignments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\assignments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\assignments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\transactions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\transactions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\crews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\crews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\airline_phonenumbers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\airline_phonenumbers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\routes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\routes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\aircrafts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\aircrafts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|c:\\users\\hp\\downloads\\airplane\\airplanemvc\\airplanemvc\\views\\airlines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92247204-9860-4FD3-A340-A595C742C9C5}|AirplaneMVC\\AirplaneMVC.csproj|solutionrelative:airplanemvc\\views\\airlines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Routes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Routes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Routes\\Delete.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Routes\\Delete.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvyUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T19:06:51.483Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvz4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T17:22:53.259Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T21:09:44.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Models\\Assignment.cs",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Models\\Assignment.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Models\\Assignment.cs",
+              "RelativeToolTip": "AirplaneMVC\\Models\\Assignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T21:08:41.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Assignments\\Create.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Assignments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Assignments\\Create.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Assignments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T21:08:15.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Assignments\\Details.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Assignments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Assignments\\Details.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Assignments\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T21:08:12.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Transactions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Transactions\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Transactions\\Delete.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Transactions\\Delete.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvyEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T20:57:27.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Employees\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Employees\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Employees\\Delete.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Employees\\Delete.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvygAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T20:53:41.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssignmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Controllers\\AssignmentsController.cs",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Controllers\\AssignmentsController.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Controllers\\AssignmentsController.cs",
+              "RelativeToolTip": "AirplaneMVC\\Controllers\\AssignmentsController.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAMAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:51:29.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Crews\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Crews\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Crews\\Delete.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Crews\\Delete.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvyIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T20:49:00.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Assignments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Assignments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Assignments\\Delete.cshtml*",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Assignments\\Delete.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwCsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T20:48:17.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AirplaneMVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AirplaneMVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAA80AAAAAAAAAAAAABg0AAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-27T21:14:32.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Airline_PhoneNumbers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Airline_PhoneNumbers\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Airline_PhoneNumbers\\Delete.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Airline_PhoneNumbers\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T20:44:51.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Aircrafts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Aircrafts\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Aircrafts\\Delete.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Aircrafts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T20:42:19.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Airlines\\Index.cshtml",
+              "RelativeDocumentMoniker": "AirplaneMVC\\Views\\Airlines\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Airplane\\AirplaneMVC\\AirplaneMVC\\Views\\Airlines\\Index.cshtml",
+              "RelativeToolTip": "AirplaneMVC\\Views\\Airlines\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwDAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T17:18:58.286Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

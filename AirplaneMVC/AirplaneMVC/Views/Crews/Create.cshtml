@@ -1,0 +1,59 @@
+﻿@model AirplaneMVC.Models.Crew
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Create Crew";
+}
+
+<h2>Create Crew</h2>
+
+<hr />
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Create">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="MajorPilot"></label>
+        <input asp-for="MajorPilot" class="form-control" />
+        <span asp-validation-for="MajorPilot" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AssistantPilot"></label>
+        <input asp-for="AssistantPilot" class="form-control" />
+        <span asp-validation-for="AssistantPilot" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Hostess1"></label>
+        <input asp-for="Hostess1" class="form-control" />
+        <span asp-validation-for="Hostess1" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Hostess2"></label>
+        <input asp-for="Hostess2" class="form-control" />
+        <span asp-validation-for="Hostess2" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AircraftID" class="control-label">Aircraft</label>
+        <select asp-for="AircraftID" class="form-control" asp-items="ViewBag.AircraftID">
+            <option value="">-- Select Aircraft --</option>
+        </select>
+        <span asp-validation-for="AircraftID" class="text-danger"></span>
+    </div>
+
+    <!-- Add additional fields as needed -->
+
+    <input type="submit" value="Create" class="btn btn-primary" />
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

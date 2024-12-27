@@ -1,0 +1,61 @@
+﻿@model RouteModel
+@using AirplaneMVC.Models
+@using RouteModel = AirplaneMVC.Models.Route
+
+@{
+    ViewData["Title"] = "Route Details";
+}
+
+<h2>Route Details</h2>
+
+<dl class="row">
+    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Origin)</dt>
+    <dd class="col-sm-10">@Html.DisplayFor(model => model.Origin)</dd>
+
+    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Destination)</dt>
+    <dd class="col-sm-10">@Html.DisplayFor(model => model.Destination)</dd>
+
+    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Distance)</dt>
+    <dd class="col-sm-10">@Html.DisplayFor(model => model.Distance)</dd>
+
+    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Classification)</dt>
+    <dd class="col-sm-10">@Html.DisplayFor(model => model.Classification)</dd>
+</dl>
+
+<!-- Optionally display Assignments related to this Route -->
+@if (Model.Assignments != null && Model.Assignments.Any())
+{
+    <h3>Assignments</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Assignment ID</th>
+                <th>Aircraft</th>
+                <th>Departure Time</th>
+                <th>Arrival Time</th>
+                <!-- Add other relevant columns -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var assignment in Model.Assignments)
+            {
+                <tr>
+                    <td>@assignment.AssignmentID</td>
+                    <td>@assignment.Aircraft?.Model</td>
+                    <td>@assignment.DepartureDateTime?.ToString("g")</td>
+                    <td>@assignment.ArrivalDateTime?.ToString("g")</td>
+                    <!-- Add other relevant data -->
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No assignments available for this route.</p>
+}
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.RouteID" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

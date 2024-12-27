@@ -1,0 +1,23 @@
+﻿@model AirplaneMVC.Models.Aircraft
+
+@{
+    ViewData["Title"] = "Aircraft Details";
+}
+
+<h2>Aircraft Details</h2>
+
+<dl class="row">
+    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Model)</dt>
+    <dd class="col-sm-10">@Html.DisplayFor(model => model.Model)</dd>
+
+    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Capacity)</dt>
+    <dd class="col-sm-10">@Html.DisplayFor(model => model.Capacity)</dd>
+
+    <dt class="col-sm-2">Airline</dt>
+    <dd class="col-sm-10">@Model.Airline?.Name</dd>
+</dl>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.AircraftID" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

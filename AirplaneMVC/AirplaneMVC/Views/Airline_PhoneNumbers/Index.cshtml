@@ -1,0 +1,43 @@
+﻿@model IEnumerable<AirplaneMVC.Models.Airline_PhoneNumbers>
+
+@{
+    ViewData["Title"] = "Phone Numbers";
+}
+
+<h2>Phone Numbers</h2>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Phone Number</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Phone Number</th>
+            <th>Airline</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var phoneNumber in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => phoneNumber.Phone)</td>
+                    <td>@phoneNumber.Airline?.Name</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@phoneNumber.PhoneNumberID" class="btn btn-info btn-sm">Details</a>
+                        <a asp-action="Edit" asp-route-id="@phoneNumber.PhoneNumberID" class="btn btn-primary btn-sm">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@phoneNumber.PhoneNumberID" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">No phone numbers found.</td>
+            </tr>
+        }
+    </tbody>
+</table>

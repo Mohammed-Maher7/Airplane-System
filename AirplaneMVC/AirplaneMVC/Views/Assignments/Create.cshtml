@@ -1,0 +1,69 @@
+﻿@model AirplaneMVC.Models.Assignment
+@using Microsoft.AspNetCore.Mvc.Rendering
+@using AirplaneMVC.Models
+@using RouteModel = AirplaneMVC.Models.Route
+
+@{
+    ViewData["Title"] = "Create Assignment";
+}
+
+<h2>Create Assignment</h2>
+
+<hr />
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Create">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="AircraftID" class="control-label">Aircraft</label>
+        <select asp-for="AircraftID" class="form-control" asp-items="ViewBag.AircraftID">
+            <option value="">-- Select Aircraft --</option>
+        </select>
+        <span asp-validation-for="AircraftID" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RouteID" class="control-label">Route</label>
+        <select asp-for="RouteID" class="form-control" asp-items="ViewBag.RouteID">
+            <option value="">-- Select Route --</option>
+        </select>
+        <span asp-validation-for="RouteID" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DepartureDateTime"></label>
+        <input asp-for="DepartureDateTime" class="form-control" type="datetime-local" />
+        <span asp-validation-for="DepartureDateTime" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ArrivalDateTime"></label>
+        <input asp-for="ArrivalDateTime" class="form-control" type="datetime-local" />
+        <span asp-validation-for="ArrivalDateTime" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Passengers"></label>
+        <input asp-for="Passengers" class="form-control" />
+        <span asp-validation-for="Passengers" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PricePerPassenger"></label>
+        <input asp-for="PricePerPassenger" class="form-control" />
+        <span asp-validation-for="PricePerPassenger" class="text-danger"></span>
+    </div>
+
+    <!-- Add other fields as needed -->
+
+    <input type="submit" value="Create" class="btn btn-primary" />
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

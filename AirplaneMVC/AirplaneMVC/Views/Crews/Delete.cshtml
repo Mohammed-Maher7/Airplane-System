@@ -1,0 +1,35 @@
+﻿@model AirplaneMVC.Models.Crew
+
+@{
+    ViewData["Title"] = "Delete Crew";
+}
+
+<h2>Delete Crew</h2>
+
+<hr />
+
+<h4>Are you sure you want to delete this crew?</h4>
+
+<dl class="row">
+    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.MajorPilot)</dt>
+    <dd class="col-sm-10">@Html.DisplayFor(model => model.MajorPilot)</dd>
+
+    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.AssistantPilot)</dt>
+    <dd class="col-sm-10">@Html.DisplayFor(model => model.AssistantPilot)</dd>
+
+    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Hostess1)</dt>
+    <dd class="col-sm-10">@Html.DisplayFor(model => model.Hostess1)</dd>
+
+    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Hostess2)</dt>
+    <dd class="col-sm-10">@Html.DisplayFor(model => model.Hostess2)</dd>
+
+    <dt class="col-sm-2">Aircraft</dt>
+    <dd class="col-sm-10">@Model.Aircraft?.Model</dd>
+</dl>
+
+<form asp-action="Delete">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="CrewID" />
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
